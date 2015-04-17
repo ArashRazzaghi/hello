@@ -1,1 +1,27 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_forward" id="94" x="-23" y="-318">
+    <next>
+      <block type="oled_cleardisplay" id="46">
+        <next>
+          <block type="oled_setcursor" id="110" inline="true">
+            <value name="STARTX">
+              <block type="math_number" id="132">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+            <value name="STARTY">
+              <block type="math_number" id="131">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+            <next>
+              <block type="oled_drawtext" id="141">
+                <field name="TEXT">welcome!</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
